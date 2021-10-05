@@ -105,18 +105,19 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-const genReadMe = generateMarkdown();
+const genReadMe = generateMarkdown(questions);
 
-function writeToFile(fileName, data) {
+function writeToFile(genReadMe) {
     fs.writeFile('./README.md', genReadMe, err => {
-        if (err) throw err;
+        if (err) {
+            console.log(err);
+        } else
         console.log('README complete! Check out "README.md" to see your file!');
-    });
-}
+})};
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions).then(log => console.log(log))
+    inquirer.prompt(questions).then(console.log)
 };
 
 // Function call to initialize app
