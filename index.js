@@ -8,7 +8,7 @@ const fs = require('fs');
 const questions = [
     {
         type: "input",
-        name: "project title",
+        name: "projectTitle",
         message: "What is the title of the project? (Required)",
         validate: (projectTitle) => {
             if (projectTitle) {
@@ -106,7 +106,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 
-const genMd = () => generateMarkdown();
+// const genMd = () => generateMarkdown();
 
 function writeToFile(fileName, data) {
 
@@ -116,9 +116,26 @@ function writeToFile(fileName, data) {
 })};
 
 // TODO: Create a function to initialize app
+// function init() {
+//     inquirer.prompt(questions).then((answers) => {
+//         console.log(answers);
+//         let answerTemp = generateMarkdown(answers);
+//         console.log('this is the template amigo'+answerTemp);
+//         writeToFile('README.md', answerTemp);
+//     })
+// };
+
+
 function init() {
-    inquirer.prompt(questions).then(console.log).writeFile()
+    inquirer.prompt(questions).then((answers) => {
+        return generateMarkdown(answers);
+    })
+    .then((template) => {
+        writeToFile('README.md', template);
+    }).catch(err => console.log(err));
 };
+
+
 
 // Function call to initialize app
 init();

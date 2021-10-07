@@ -30,7 +30,7 @@ ${data.license}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${data.title} - <img src=${renderLicenseBadge(data.license)}/>
+  # ${data.projectTitle} - <img src=${renderLicenseBadge(data.license)}/>
   ------
   ## Table of Contents
 - [Description](#description)
@@ -57,8 +57,8 @@ ${data.contribution}
 ${data.tests}
 ----
 ### Questions
-[Github Profile](https://github.com/${data.username})
-${data.email}
+[Github Profile](https://github.com/${data.githubUser})
+[${data.email}](mailto:${data.email})
 ${renderLicenseSection()}
 
 
