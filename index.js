@@ -115,6 +115,8 @@ function writeToFile(fileName, data) {
         console.log('README complete! Check out "README.md" to see your file!');
 })};
 
+
+//THIS IS ONE WAY TO DO THE INIT
 // TODO: Create a function to initialize app
 // function init() {
 //     inquirer.prompt(questions).then((answers) => {
@@ -125,7 +127,7 @@ function writeToFile(fileName, data) {
 //     })
 // };
 
-
+// THIS IS A MORE ES6 WAY
 function init() {
     inquirer.prompt(questions).then((answers) => {
         return generateMarkdown(answers);
