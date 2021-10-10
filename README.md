@@ -14,10 +14,8 @@ README Originator is a simple command line application that creates professional
 The README's created will have the title, description, installation instructions, project usage details, test instructions, usage details, license being used, as well as a link to the user's inputted GitHub account as well as a direct link to their e-mail.
 
 
-## Preview 👀
-[Link](https://github.com/evalecillos/readme-originator)
-
-
+## Preview 👀 & Instructions
+[Link](https://youtu.be/Sd5bRZQ3Cn8)
 
 
 ## License 📓
