@@ -70,12 +70,10 @@ ${data.tests}
 -----------------------
 ## Questions
 
-For any questions, comments, concerns, or any type of feedback; please email @[${
-      data.email
-  }](mailto:${data.email})
-${renderLicenseSection(data.license)}
+For any questions, comments, concerns, or any type of feedback; please email @[${data.email}](mailto:${data.email})
+  [Github Profile](https://github.com/${data.githubUser})
 
-[Github Profile](https://github.com/${data.githubUser})
+${renderLicenseSection(data.license)}
 `;
 }
 
