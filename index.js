@@ -133,7 +133,7 @@ function init() {
         return generateMarkdown(answers);
     })
     .then((template) => {
-        writeToFile('README.md', template);
+        writeToFile('../README.md', template);
     }).catch(err => console.log(err));
 };
 
