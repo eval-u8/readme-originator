@@ -15,7 +15,7 @@ The README's created will have the title, description, installation instructions
 
 
 ## Preview 👀 & Instructions
-[![README-Originator Instructions](https://res.cloudinary.com/marcomontalbano/image/upload/v1633905218/video_to_markdown/images/youtube--Sd5bRZQ3Cn8-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/Sd5bRZQ3Cn8 "README-Originator Instructions")
+[Click here for a quick video on how to use the Originator](https://youtu.be/Sd5bRZQ3Cn8)
 
 
 ## License 📓
