@@ -1,7 +1,8 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  return `https://img.shields.io/badge/${license}-yellow`;
+  const badges = license.split(' ').join('%20');
+  return `https://img.shields.io/badge/${badges}-yellow`;
 }
 
 // TODO: Create a function that returns the license link
@@ -58,27 +59,9 @@ ${data.tests}
 ----
 ### Questions
 [Github Profile](https://github.com/${data.githubUser})
+
 [${data.email}](mailto:${data.email})
 ${renderLicenseSection(data.license)}
-
-
-
-
-
-Weather Forecaster is a simple basic weather dashboard that shows the weather outlook for multiple cities depending on user input. It was build using the [OpenWeather](https://openweathermap.org/) API, as well as HTML, CSS, JavaScript, [Bootstrap](https://getbootstrap.com/) and [Moment.js](https://momentjs.com/).
-
-## Quirks 🎯
-
-Weather Forecaster will remember previously searched cities! And shows 5 days in advance.
-
-
-## Preview 👀
-[Live page](https://evalecillos.github.io/weather-forecaster/)
-![Preview](./assets/images/preview.png)
-
-## License 📓
-[MIT](https://choosealicense.com/licenses/mit/)
-
 `;
 }
 
