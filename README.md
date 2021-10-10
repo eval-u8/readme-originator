@@ -1,48 +1,24 @@
+<p align="center">
+    <img src="https://img.shields.io/badge/Javascript-yellow" />
+    <img src="https://img.shields.io/badge/Inquirer-blue"  />
+    <img src="https://img.shields.io/badge/Command%20Line-orange" />
+    <img src="https://img.shields.io/badge/Node%20JS-purple" >
+</p>
 
-  # gh - <img src=https://img.shields.io/badge/GNU%20GPLv3-yellow/>
+# README Originator 🤖
 
-  ## Table of Contents
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contribution](#contribution)
-- [Test Instructions](#test-instructions)
-- [Questions](#questions)
-- [License](#License)
------------------------
-## Description
+README Originator is a simple command line application that creates professional-level README's using input asked to the user.
 
-gh
+## Quirks 🎯
 
------------------------
-## Installation
+The README's created will have the title, description, installation instructions, project usage details, test instructions, usage details, license being used, as well as a link to the user's inputted GitHub account as well as a direct link to their e-mail.
 
-gh
 
------------------------
-## Usage
+## Preview 👀
+[Link](https://github.com/evalecillos/readme-originator)
 
-gh
 
------------------------
-## Contribution
 
-gh
 
------------------------
-## Test-Instructions
-
-gh
-
------------------------
-## Questions
-
-For any questions, comments, concerns, or any type of feedback; please email @[gh](mailto:gh)
-
-  ----
-### License
-GNU GPLv3
-
-  
-
-[Github Profile](https://github.com/gh)
+## License 📓
+[MIT](https://choosealicense.com/licenses/mit/)
